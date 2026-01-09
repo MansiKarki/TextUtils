@@ -12,6 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.fixed-btn {
+  width: 1600px;      /* same width for all buttons */
+  height: 45px;      /* same height for all buttons */
+  font-size: 15px;
+}
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +41,6 @@
     transform: rotate(360deg);
   }
 }
+ .name{
+  color: blue;
+ }
