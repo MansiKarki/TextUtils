@@ -50,7 +50,7 @@ function App() {
           </Route>
 
           <Route exact path="/about">
-            <Abouts />
+            <Abouts mode={mode} />
           </Route>
         </Switch>
       </div>
